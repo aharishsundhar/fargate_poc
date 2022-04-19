@@ -12,8 +12,6 @@ import {
     systemcredentialmanagerController,
     UserController,
     studentdetailsController,
-    collegedetailsController,
-    studentdetailsController,
     collegedetailsController
     } from './apicontroller';
 
@@ -26,8 +24,6 @@ let apisController = [
     new CamundaController(),
     new systemcredentialmanagerController(),
     new UserController(),
-    new studentdetailsController(),
-    new collegedetailsController(),
     new studentdetailsController(),
     new collegedetailsController()
     ]
